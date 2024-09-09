@@ -33,7 +33,7 @@ const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
 //TODO: Enable CORS middleware
-app.use(cors({ origin: "http://localhost:5173", credentials: true}))
+app.use(cors({ origin:  process.env.CLIENT_URL, credentials: true}))
 
 //TODO: Middleware to parse JSON request bodies  **
 //Hack: allows us to parse incomming & ougoing request: req.body in json format
