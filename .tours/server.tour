@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "server",
+  "steps": [
+    {
+      "file": "backend/models/user.model.js",
+      "description": "mongoose schema accepts two object paramter first, contain type of object it gives or accept,  second is timestamp, // with times,tamp created and updateat fields will be automatically added into the document",
+      "line": 3
+    },
+    {
+      "file": "backend/models/user.model.js",
+      "description": "this block of code mongoose.model define what created schema will be used for, in this case, it will be use for user",
+      "line": 32
+    }
+  ]
+}
