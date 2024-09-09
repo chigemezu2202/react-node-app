@@ -6,11 +6,11 @@ import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 import NotFound from "./pages/NotFound";
 import SignUpPage from "./pages/SignUpPage";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ResetPassword from "./pages/ResetPassword";
 
 import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
-import ForgotPasswordPage from "./pages/ForgotPasswordPage";
-import ResetPassword from "./pages/resetPassword";
 import { useAuthStore } from "./store/authStore";
 
 
