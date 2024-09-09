@@ -48,7 +48,7 @@ app.use("/api/auth", authRouter)
 
 
 //TODO: Make frontend folder to be static asset
-if (process.env.NODE_ENV === "production") {
+if(process.env.NODE_ENV === "production") {
     //Hack: "__dirname" is the root folder of the project
     app.use(express.static(path.join(__dirname, "frontend/dist")));
 
