@@ -37,11 +37,11 @@ app.use(cors({ origin:  process.env.CLIENT_URL, credentials: true}))
 
 //TODO: Middleware to parse JSON request bodies  **
 //Hack: allows us to parse incomming & ougoing request: req.body in json format
-app.use(express.json()) //Hack: parse json request bodies
+app.use(express.json()); //Hack: parse json request bodies
 
 //TODO: Middleware to verify token
 //Hack: allow us to parse incoming cookies
-app.use(cookieParser());
+app.use(cookieParser()); 
 
 //TODO: Create Authentication Route  
 app.use("/api/auth", authRouter)

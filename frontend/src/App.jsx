@@ -2,12 +2,12 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import FloatingShape from "./components/FloatingShape";
 import LoadingSpinner from "./components/LoadingSpinner";
 import EmailVerificationPage from "./pages/EmailVerificationPage";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 import NotFound from "./pages/NotFound";
-import SignUpPage from "./pages/SignUpPage";
-import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 import ResetPassword from "./pages/ResetPassword";
+import SignUpPage from "./pages/SignUpPage";
 
 import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";

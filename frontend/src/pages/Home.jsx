@@ -24,12 +24,13 @@ const Home = () => {
   };
 
   return (
-    <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
-      <h1 className="mb-4 text-2xl font-black text-center text-gray-700">
+    <>
+    <div className="w-full max-w-md p-6 bg-gray-950 rounded-lg shadow-md">
+      <h1 className="mb-4 text-2xl font-black text-center text-gray-200">
         DASHBOARD
       </h1>
       <motion.div
-        className="w-full px-4 py-3 mt-5 font-bold text-white transition duration-200 rounded-lg shadow-lg bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-900 "
+        className="w-full px-4 py-3 mt-5 font-bold text-gray-500 transition duration-200 rounded-lg shadow-lg bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-900 "
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 1.02 }}
       >
@@ -80,6 +81,7 @@ const Home = () => {
         )}
       </motion.button>
     </div>
+    </>
   );
 };
 
