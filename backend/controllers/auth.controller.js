@@ -5,7 +5,7 @@ import crypto from 'crypto'; //Hack: Reset token
 //Hack: Local imports
 import { User } from "../models/user.model.js";
 import { generateTokenAndSetCookie } from '../utils/generateTokenAndSetCookie.js';
-import { sendVerificationEmail, sendWelcomeEmail, sendResetPasswordEmail, sendResetSuccessfullEmail } from '../mailtrap/emails.js';
+import { sendVerificationEmail, sendWelcomeEmail, sendResetPasswordEmail, sendResetSuccessfullEmail } from '../brevo/emails.js';
 
 //Todo: Signup Function
 export const signup = async (req, res) => {
