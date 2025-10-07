@@ -13,7 +13,6 @@ export const handleError = (error) => {
 };
 
 
-
 //Hack: function block of filtering error object
 export const getErrorMessage = (error) => {
     return error.response?.data?.message || "An unknown error occurred";

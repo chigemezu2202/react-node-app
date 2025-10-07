@@ -18,7 +18,8 @@ import {
   PASSWORD_RESET_SUCCESS_TEMPLATE,
 } from "./emailTemplates.js";
 
-const sender = { name: "@Auth", email: "noreply@yourdomain.com" };
+const sender = { name: "NexTechSphere Innovation", email: "chigemezuezimoha@gmail.com" };
+
 
 
 // 1️⃣ Verification Email
@@ -70,9 +71,12 @@ export const sendWelcomeEmail = async (email, name) => {
 // 3️⃣ Reset Password Email
 export const sendResetPasswordEmail = async (email, resetToken) => {
   try {
+    
     const htmlContent = PASSWORD_RESET_REQUEST_TEMPLATE.replace(
-      "{resetURL}",
+      
+      "resetURL",
       resetToken
+
     );
 
     const response = await tranEmailApi.sendTransacEmail({

@@ -22,7 +22,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mailtrap": "^3.4.0",
-    "mongoose": "^8.5.4"
+    "mongoose": "^8.5.4",
+    "sib-api-v3-sdk": "^8.5.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

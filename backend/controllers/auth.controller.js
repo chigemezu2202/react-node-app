@@ -198,7 +198,7 @@ export const forgotPassword = async (req, res) => {
 
         //Hack: Send reset password email
         await sendResetPasswordEmail(user.email, `${process.env.CLIENT_URL || "http://localhost:5173"}/reset-password/${resetToken}`);
-
+        console.log("Reset Password Link Sent to your Email" + resetToken);
         //Hack: send respond if all went succesful
         res.status(200).json({
             success: true, message: "Reset password link sent successfully", user: {
