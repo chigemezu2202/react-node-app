@@ -100,7 +100,7 @@ export default function Home() {
   };
 
   return (
-    <div className="text-white p-6">
+    <div className="w-full max-w-md min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white p-6">
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
