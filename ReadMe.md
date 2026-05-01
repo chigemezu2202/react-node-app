@@ -8,27 +8,46 @@ A full-stack authentication system with a modern dashboard UI built using React,
 
 ### 🏠 Dashboard
 💻 Desktop View
-![Dashboard](./assets/dashboard-desktop.png)
+![Dashboard](./frontend/assets/dashboard-desktop.png)
+
+---
+
 📱 Mobile View
-![Dashboard](./assets/dashboard-mobile.png)
+![Dashboard](./frontend/assets/dashboard-mobile.png)
+
+---
 
 ### 🔐 Signin Page
 💻 Desktop View
-![Signin](./assets/signin-desktop.png)
+![Signin](./frontend/assets/signin-desktop.png)
+
+---
+
 📱 Mobile View
-![SignIn](./assets/signin-mobile.png)
+![SignIn](./frontend/assets/signin-mobile.png)
+
+---
 
 ### 📝 Signup Page
 💻 Desktop View
-![Signup](./assets/signup-desktop.png)
+![Signup](./frontend/assets/signup-desktop.png)
+
+---
+
 📱 Mobile View
-![Signup](./assets/signup-mobile.png)
+![Signup](./frontend/assets/signup-mobile.png)
+
+---
 
 ### 📝 Forgot Page
 💻 Desktop View
-![Forgot](./assets/forgot-desktop.png)
+![Forgot](./frontend/assets/forgot-desktop.png)
+
+---
+
 📱 Mobile View
-![Forgot](./assets/forgot-mobile.png)
+![Forgot](./frontend/assets/forgot-mobile.png)
+
 ---
 
 ## ⚙️ Features
@@ -83,7 +102,7 @@ A full-stack authentication system with a modern dashboard UI built using React,
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/chigemezu2202/react-node-app.git
-
+```
 # About This Project:
 
 🔧 Backend Setup
